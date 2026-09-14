@@ -22,7 +22,7 @@ rule-providers:
   nagram:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/OWNER/stash-nagram-rules/main/stash/nagram.yaml"
+    url: "https://raw.githubusercontent.com/xxesc/stash-nagram-rules/main/stash/nagram.yaml"
     interval: 86400
 
 rules:
@@ -40,7 +40,7 @@ rule-providers:
   nagram-cidr:
     type: http
     behavior: ipcidr
-    url: "https://raw.githubusercontent.com/OWNER/stash-nagram-rules/main/stash/nagram-cidr.yaml"
+    url: "https://raw.githubusercontent.com/xxesc/stash-nagram-rules/main/stash/nagram-cidr.yaml"
     interval: 86400
 
 rules:
